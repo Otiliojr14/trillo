@@ -1,0 +1,21 @@
+@import "./scss/styles.scss";
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+  min-height: 50rem;
+
+  @include responsive(tab-land) {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+
+  @include responsive(tab-port) {
+    flex-direction: column;
+  }
+}
