@@ -1,4 +1,4 @@
-# Proyecto de sitio de hoteles Trillo
+# Proyecto de sitio de hoteles Trillo construido en React
 
 ## Sitio en producción
 
